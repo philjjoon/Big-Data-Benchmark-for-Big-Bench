@@ -1,0 +1,28 @@
+15/08/13 17:57:30 INFO test.TestNaiveBayesDriver: Standard NB Results: 
+=======================================================
+Summary
+-------------------------------------------------------
+Correctly Classified Instances          :      16549	   45.9784%
+Incorrectly Classified Instances        :      19444	   54.0216%
+Total Classified Instances              :      35993
+
+=======================================================
+Confusion Matrix
+-------------------------------------------------------
+a    	b    	c    	<--Classified as
+1166 	868  	2136 	 |  4170  	a     = NEG
+808  	630  	1539 	 |  2977  	b     = NEU
+7433 	6660 	14753	 |  28846 	c     = POS
+
+=======================================================
+Statistics
+-------------------------------------------------------
+Kappa                                        0.001
+Accuracy                                   45.9784%
+Reliability                                 25.067%
+Reliability (standard deviation)            0.2107
+Weighted precision                          0.6624
+Weighted recall                             0.4598
+Weighted F1 score                           0.5295
+
+15/08/13 17:57:30 INFO driver.MahoutDriver: Program took 15638 ms (Minutes: 0.26063333333333333)
